@@ -1,0 +1,121 @@
+@media (max-width:768px){
+
+    .tresHeaderGrid img{
+        width: 300px;
+    }
+    .glitch {
+        color: white;
+        font-size: 40px;
+        position: relative;
+        width: auto;
+        margin: 0 auto;
+        font-family: 'Varela', sans-serif;
+        margin-bottom: 47px;
+    }
+    .dosHeaderGrid {
+        gap: 10px;
+    }
+    p {
+        font-size: 13px;
+    }
+    a {
+        padding: 4px 5px;
+        font-size: 17px;
+    }
+    .cuatroHeaderGrid {
+        grid-row: 2/4;
+        grid-column: 1/3;
+        text-align: center;
+        align-items: center;
+    }
+    .enlacesHeader button {
+        padding: 12px 15px;
+    }
+    .dosHeaderGrid a:hover {
+        border: none;
+        padding: 4px 5px
+    }
+    .tresHeaderGrid{
+        grid-column: 1/3;
+        justify-content: center;
+    }
+    .marcas img{
+        width: 60px;
+    }
+
+    .tarjetaReadmore img {
+        width: 150px;
+    }
+    .tarjetaReadmore h1 {
+        color: #4b5a65;
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .tarjetaReadmore {
+        width: 80%;
+        padding: 0;
+        gap: 15px;
+    }
+    .readMore {
+        padding: 0;
+        gap: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+    #imgSelected {
+        width: 245px;
+    }
+
+    .selectedProjects h1{
+        font-size: 20px
+    }
+    .selectedProjects {
+        padding: 90px;
+    }
+
+    .cincoSelectedProjectsGrid {
+        align-items: center;
+        margin: 10px;
+    }
+    .dosSelectedProjectsGrid {
+        align-items: center;
+        margin: 10px;
+    }
+    .tresSelectedProjectsGrid {
+        align-items: center;
+        margin: 10px;
+    }
+    .cuatroSelectedProjectsGrid {
+        align-items: center;
+        margin: 10px;
+    }
+
+    .blogTwitter {
+        padding: 50px 30px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+    }
+    .ourBlog {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid rgb(189, 189, 189);
+    }
+
+    .ourTwitter {
+        width: 80%;
+        align-items: center;
+    }
+    .blogTexto {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+}

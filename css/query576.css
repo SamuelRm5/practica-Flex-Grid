@@ -1,0 +1,114 @@
+@media (max-width:576px){
+
+    header img{
+        width: 150px;
+    }
+    header {
+        padding: 15px 15px 0px 15px;
+    }
+    .cuatroHeaderGrid h1 {
+        font-size: 30px;
+    }
+    p{
+        font-size: 13px;
+    }
+    a{
+        font-size: 15px;
+    }
+    .dosHeaderGrid {
+        gap: 0px;
+    }
+    .cuatroHeaderGrid {
+        grid-column: 1/3;
+        grid-row: 2/3;
+        padding: 15px 0px 15px 0px;
+        align-items: center;
+        text-align: center;
+    }
+    .cuatroHeaderGrid button{
+        padding: 10px 15px;
+    }
+    .enlacesHeader,a,button {
+        font-size: 14px;
+    }
+    .tresHeaderGrid{
+        grid-row: 3/4;
+        grid-column: 1/3;
+        justify-content: center;
+    }
+    .tresHeaderGrid img{
+        width: 300px;
+    }
+
+    .marcas img{
+        width: 40px;
+    }
+
+    .tarjetaReadmore img {
+        width: 80px;
+    }
+    .tarjetaReadmore h1 {
+        color: #4b5a65;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .tarjetaReadmore {
+        width: 80%;
+        padding: 0;
+        gap: 15px;
+    }
+    .readMore {
+        padding: 75px 0px;
+        gap: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #imgSelected {
+        width: 195px;
+    }
+
+    .selectedProjects h1{
+        font-size: 20px
+    }
+    .selectedProjects {
+        padding: 0px 40px
+    }
+
+    .cincoSelectedProjectsGrid {
+        align-items: center;
+    }
+    .dosSelectedProjectsGrid {
+        align-items: center;
+    }
+    .tresSelectedProjectsGrid {
+        align-items: center;
+    }
+    .cuatroSelectedProjectsGrid {
+        align-items: center;
+    }
+
+    .blogTwitter {
+        padding: 50px 30px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+    }
+    .ourBlog {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid rgb(189, 189, 189);
+    }
+
+    .ourTwitter {
+        width: 80%;
+    }
+
+
+}

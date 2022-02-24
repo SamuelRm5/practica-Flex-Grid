@@ -1,0 +1,68 @@
+@media (max-width:1200px){
+    .glitch {
+        font-size: 60px;
+    }
+    .dosHeaderGrid {
+        justify-content: center;
+        gap: 50px;
+        width: 80%;
+    }
+    .cuatroHeaderGrid {
+        padding: 70px 20px 70px 70px;
+        width: 80%;
+    }
+    p{
+        font-size: 15px;
+    }
+    header{
+        padding: 40px 50px 0px 50px;
+        width: auto;
+    }
+    .readMore{
+        padding: 100px 0px;
+        gap: 50px;
+    }
+    .selectedProjects {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        padding: 0px 100px;
+    }
+    .unoSelectedProjectsGrid{
+        align-items: flex-end;
+    }
+    .unoSelectedProjectsGrid img{
+        margin-bottom: 7px;
+        text-align: center;
+    }
+    .dosSelectedProjectsGrid{
+        text-align: left;
+    }
+    .tresSelectedProjectsGrid{
+        text-align: right;
+    }
+    .cuatroSelectedProjectsGrid{
+        grid-column: 4/-2;
+        text-align: right;
+        margin-top: 50px;
+    }
+    .cincoSelectedProjectsGrid{
+        grid-row: 3/4;
+        grid-column: -3/-2;
+        text-align: left;
+        margin-top: 50px;
+    }
+    #imgSelected{
+        width: 460px;
+    }
+
+    .blogTexto {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .blogTexto img{
+        height: auto;
+        width: 350px;
+    }
+
+    
+}
